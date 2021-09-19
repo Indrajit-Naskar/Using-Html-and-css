@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indrajit Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">>
+<style>
+    /*CSS Reset*/
+    body{
+        font-family: 'Baloo Bhai 2', cursive;
+    display: inline-block;
+    color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(img/fitness.png.jpg);
+        height: 4544px;
+        background-image: url(img/fitness.png.jpg);
+        background-repeat: no-repeat;
+
+    }
+    .left{
+        position: absolute;
+        left: 32px;
+        top: 22px;
+        display: inline-block;
+        border: 2px solid red;
+        
+    }
+    .left img{
+        width: 135px;
+        
+    }
+    .left div{
+        text-align: center;
+        line-height: 5px;
+       font-size: 22;
+    }
+    .mid{
+        display: block;
+        width: 40%;
+        margin: auto 500px;
+        border: 2px solid green;
+        
+    }
+    .right{
+        position: absolute;
+        right: 32px;
+        top: 22px;
+        right: 34px;
+        display: inline-block;
+        border: 2px solid yellow;
+
+    }
+    .btn{
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px 9px;
+        background-color: rgba(0, 0, 0, 0.048);
+        color: blanchedalmond;
+        padding: 3px 4px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: grey;
+    }
+    .navbar{
+        display: inline-block;
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 18px;
+    }
+    .navbar li a{
+        color:white;
+        text-decoration: none;
+        padding: 34px;
+    }
+    .navbar li a:hover,.navbar li a.active{
+        text-decoration: underline;
+        color: grey;
+    }
+    .container{
+        border: 2px solid white;
+        margin: 200px 120px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 48px;
+    }
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 345px;
+        padding: 4px;
+        border: 2px solid black;
+        margin: 3px auto;
+        font-size: 21px;
+        border-radius: 23px;
+        font-family:'Baloo Bhai 2', cursive; ;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 23%;
+        margin: auto;
+
+    }
+
+</style>
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="img/workout.png.jpg" alt="">
+            <div>Indrajit Fitness</div>
+        </div>
+        <!--Mid box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active"> Home</a> </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness</a> </li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+   
+        </div>
+        <!--Right box for button-->
+        <div class="right">
+            <button class="btn">Call Us Now</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Kolkata</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <button class="btn">submit</button>
+            
+
+        </form>
+    </div>
+</body>
+</html>
